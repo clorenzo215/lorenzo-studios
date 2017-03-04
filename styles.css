@@ -1,0 +1,109 @@
+body {
+  background-image: url('./images/backgroundpattern-sm.png');
+  margin: 0px;
+  background-size: 100px;
+  font-family: 'Libre Baskerville', serif;
+  color: #404040;
+}
+
+h1, h2, h3, h4, h5, h6, p { padding: 0; margin: 0; }
+
+.pt-1 { padding-top: 1em; }
+.pb-1 { padding-bottom: 1em; }
+.pb-2 { padding-bottom: 2em; }
+.pb-half { padding-bottom: 0.5em; }
+
+.text-heading {
+  font-family: 'Open Sans', sans-serif;
+}
+
+.container {
+  margin: 20px 0px;
+  padding: 400px 0px 200px 0px;
+  background-image: url('./images/heart.png');
+  background-size: 600px;
+  background-repeat: no-repeat;
+  background-position: center top;
+}
+  
+.overlay { 
+  height: 200px;
+  background-color: #11799b;
+  opacity: 0.70;
+  text-align: center;
+  box-shadow: 0px 5px 5px #404040;
+}
+  
+.logo {
+  height: 100%;
+}
+
+.content {
+  margin: 0px 20px;
+}
+
+footer {
+  margin-top: 100px;
+  text-align: right;
+}
+
+.img-circle {
+  border-radius: 50%;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.content {
+  max-width: 1180px;
+  margin: auto;
+}
+
+.prefix-25 {
+  margin-left: 25%;
+}
+
+.prefix-5 {
+  margin-left: 5%;
+}
+
+.grid-50 {
+  width: 50%;
+}
+
+.suffix-5 {
+  margin-right: 5%;
+}
+
+header { 
+  display: block; 
+  margin-bottom: 20px;
+  height: 100px;
+  background-color: #11799b;
+  opacity: 0.70;
+  box-shadow: 0px 5px 5px #404040;
+  white-space: nowrap;
+}
+
+.header-logo { float: left; display: block; }
+
+nav { 
+  display: block; 
+  float: right; 
+  line-height: 100px; /* equal to header height */
+  text-transform: uppercase;
+}
+nav a { color: #ffffff; display: block; }
+ul { margin: 0; padding: 0; }
+ul, li { list-style: none; }
+li { display: inline-block; }
+
+h3, a { color: #11799b; text-decoration: none; }
+
+nav li { padding-left: 5%; }
+
+.separator {
+  border-top: 1px dashed #808080;
+  margin: auto;
+}
