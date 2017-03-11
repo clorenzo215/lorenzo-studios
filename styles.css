@@ -10,6 +10,10 @@ body {
   color: #404040;
 }
 
+address {
+  font-style: normal;
+}
+
 h1, h2, h3, h4, h5, h6, p { padding: 0; margin: 0; }
 
 .pt-1 { padding-top: 1em; }
@@ -47,8 +51,9 @@ h1, h2, h3, h4, h5, h6, p { padding: 0; margin: 0; }
 }
 
 footer {
-  margin-top: 100px;
   text-align: right;
+  margin-top: 2em;
+  padding-bottom: 1em;
 }
 
 .img-circle {
@@ -64,6 +69,10 @@ footer {
   margin: auto;
 }
 
+.prefix-33 {
+  margin-left: 33%;
+}
+
 .prefix-25 {
   margin-left: 25%;
 }
@@ -72,12 +81,16 @@ footer {
   margin-left: 5%;
 }
 
+.grid-90 {
+  width: 90%;
+}
+
 .grid-50 {
   width: 50%;
 }
 
-.grid-90 {
-  width: 90%;
+.grid-33 {
+  width: 33%;
 }
 
 .suffix-5 {
@@ -188,6 +201,14 @@ nav li { padding-left: 5%; float: right; }
 
   .overlay {
     height: 120px;
+  }
+
+  .mobile-prefix-10 {
+    margin-left: 10%;
+  }
+
+  .mobile-grid-80 {
+    width: 80%;
   }
 }
 
