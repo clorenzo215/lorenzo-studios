@@ -158,14 +158,14 @@ nav li { padding-left: 5%; float: right; }
 }
 
 .gallery li img {
-  max-width: 100%;
+  max-width: 90%;
   height: auto;
   box-shadow: 0 3px 15px -6px #777;
   transition: transform .3s ease-in-out;
 }
 
 .gallery a:hover img {
-  transform: scale(1.05);
+  transform: scale(1.03);
 }
 
 .social-icons li { 
