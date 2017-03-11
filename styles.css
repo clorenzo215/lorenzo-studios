@@ -179,6 +179,19 @@ nav li { padding-left: 5%; float: right; }
   transform: scale(1.2);
 }
 
+.contact {
+  padding-top: 1em;
+}
+
+.contact td {
+  vertical-align: top;
+  padding-bottom: 1em;
+}
+
+.contact td:first-child {
+  padding-right: 0.5em;
+}
+
 /* Extra small devices (phones, less than 768px) */
 @media (max-width: 767px) {
   .logo-wrap {
