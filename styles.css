@@ -155,10 +155,11 @@ nav li { padding-left: 5%; float: right; }
 .gallery li {
   cursor: pointer;
   padding: 0 30px 30px 0;
+  max-width: 30%;
 }
 
 .gallery li img {
-  max-width: 90%;
+  max-width: 100%;
   height: auto;
   box-shadow: 0 3px 15px -6px #777;
   transition: transform .3s ease-in-out;
@@ -227,6 +228,7 @@ nav li { padding-left: 5%; float: right; }
 
   .gallery li {
     padding: 0 0 30px 0;
+    max-width: 100%;
   }
 }
 
