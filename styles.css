@@ -173,6 +173,10 @@ nav li { padding-left: 5%; float: right; }
   transform: scale(1.03);
 }
 
+.img-shadow {
+  box-shadow: 0px 10px 19px -9px #777;
+}
+
 .social-icons li { 
   display: inline;
   padding-right: 0.5em; 
